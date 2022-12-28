@@ -1,15 +1,13 @@
 # apache-refuse-the-Content-Security-Policy-headers
 
 
-goto apache website configuration
+#goto apache website configuration
 that is 
-/etc/apache2/sites-available/domain.conf
+#/etc/apache2/sites-available/domain.conf
 and add this 
 
 <VirtualHost *:443>
-  # Website Domain Name
-  ServerName    infotrain.fssai.gov.in
-  ServerAlias   www.infotrain.fssai.gov.in
+  
   Header unset X-Forwarded-Host
   ##Apache Security headers##
     Header always set Strict-Transport-Security "max-age=31536000"
