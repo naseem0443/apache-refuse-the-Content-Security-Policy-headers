@@ -1,0 +1,1 @@
+# apache-refuse-the-Content-Security-Policy-headers
