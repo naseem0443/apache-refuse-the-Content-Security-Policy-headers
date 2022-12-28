@@ -1,4 +1,4 @@
-# apache-refuse-the-Content-Security-Policy-headers
+# apache header security-missing
 
 
 #goto apache website configuration
