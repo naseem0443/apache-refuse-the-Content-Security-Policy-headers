@@ -22,4 +22,4 @@ and add this
        google.com  \
 ;"
  
-  </Directory>
+  </VirtualHost>
