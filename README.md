@@ -8,13 +8,13 @@ and add this
 
 <VirtualHost *:443>
   
-  Header unset X-Forwarded-Host
+  <br>Header unset X-Forwarded-Host </br>
   ##Apache Security headers##
-    <br>Header always set Strict-Transport-Security "max-age=31536000"</br>
-    Header always set X-Frame-Options "deny"
-    Header always set Permissions-Policy "accelerometer=(),autoplay=(),camera=(),encrypted-media=(),fullscreen=*,geolocation=*,gyroscope=(),interest-cohort=(),magnetometer=(),microphone=(),midi=(),sync-xhr=*    ,usb=(),xr-spatial-tracking=()"
-    Header always set Referrer-Policy "strict-origin-when-cross-origin"
-   Header always set Content-Security-Policy: "\
+    <br> Header always set Strict-Transport-Security "max-age=31536000"</br>
+    <br>Header always set X-Frame-Options "deny"</br>
+   <br> Header always set Permissions-Policy "accelerometer=(),autoplay=(),camera=(),encrypted-media=(),fullscreen=*,geolocation=*,gyroscope=(),interest-cohort=(),magnetometer=(),microphone=(),midi=(),sync-xhr=*    ,usb=(),xr-spatial-tracking=()"</br>
+    <br>Header always set Referrer-Policy "strict-origin-when-cross-origin"</br>
+   <br>Header always set Content-Security-Policy: "\</br>
    frame-src 'self' \
      *.google.de   \
        google.de   \
