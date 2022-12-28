@@ -14,7 +14,7 @@ and add this
     <br>Header always set X-Frame-Options "deny"</br>
    <br> Header always set Permissions-Policy "accelerometer=(),autoplay=(),camera=(),encrypted-media=(),fullscreen=*,geolocation=*,gyroscope=(),interest-cohort=(),magnetometer=(),microphone=(),midi=(),sync-xhr=*    ,usb=(),xr-spatial-tracking=()"</br>
     <br>Header always set Referrer-Policy "strict-origin-when-cross-origin"</br>
-   <br>Header always set Content-Security-Policy: "\</br>
+   <br>Header always set Content-Security-Policy: "\
    frame-src 'self' \
      *.google.de   \
        google.de   \
