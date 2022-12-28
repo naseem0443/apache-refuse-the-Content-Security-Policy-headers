@@ -10,7 +10,7 @@ and add this
   
   Header unset X-Forwarded-Host
   ##Apache Security headers##
-    Header always set Strict-Transport-Security "max-age=31536000"
+    <br>Header always set Strict-Transport-Security "max-age=31536000"</br>
     Header always set X-Frame-Options "deny"
     Header always set Permissions-Policy "accelerometer=(),autoplay=(),camera=(),encrypted-media=(),fullscreen=*,geolocation=*,gyroscope=(),interest-cohort=(),magnetometer=(),microphone=(),midi=(),sync-xhr=*    ,usb=(),xr-spatial-tracking=()"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
